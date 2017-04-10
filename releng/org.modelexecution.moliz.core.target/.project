@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>fr.obeo.dsl.debug.target</name>
+	<name>org.modelexecution.moliz.core.target</name>
 	<comment></comment>
 	<projects>
 	</projects>
