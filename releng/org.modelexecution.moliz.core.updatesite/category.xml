@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.modelexecution.moliz.core.feature_1.0.0.qualifier.jar" id="org.modelexecution.moliz.core.feature" version="1.0.0.qualifier">
+      <category name="moliz.core.fuml"/>
+   </feature>
+   <feature url="features/org.modelexecution.moliz.core.feature_1.0.0.qualifier-sources-feature.jar" id="org.modelexecution.moliz.core.feature.source" version="1.0.0.qualifier">
+      <category name="moliz.core.fuml.source"/>
+   </feature>
+   <category-def name="moliz.core.fuml" label="Moliz Core FUML Facilities">
+      <description>
+         Category with all features.
+      </description>
+   </category-def>
+   <category-def name="moliz.core.fuml.source" label="Moliz Core FUML Facilities (sources)">
+      <description>
+         Category with all sources.
+      </description>
+   </category-def>
+</site>
