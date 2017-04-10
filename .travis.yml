@@ -1,0 +1,17 @@
+# following instructions from http://muelder.blogspot.fr/2015/08/building-eclipse-plugins-with-maven.html
+sudo: false  
+language: java    
+cache:  
+  directories:  
+   - $HOME/.m2 
+env:
+  global:
+    - MAVEN_OPTS="-Xmx2g"
+jdk:
+  - oraclejdk8
+before_install: echo "MAVEN_OPTS='-Xmx2048m -XX:MaxPermSize=512m'" > ~/.mavenrc
+ 
+script:     
+  - mvn clean verify 
+
+
