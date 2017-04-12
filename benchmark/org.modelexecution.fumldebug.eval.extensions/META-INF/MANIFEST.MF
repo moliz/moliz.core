@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Extensions
 Bundle-SymbolicName: org.modelexecution.fumldebug.eval.extensions
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.1.qualifier
 Export-Package: org.modelexecution.fumldebug.eval.extensions
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.modelexecution.fumldebug.uml;bundle-version="1.0.0",

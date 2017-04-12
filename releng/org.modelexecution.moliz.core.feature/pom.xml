@@ -15,12 +15,12 @@ Contributors:
   <parent>
   	<artifactId>moliz.core.parent</artifactId>
   	<groupId>moliz.core</groupId>
-  	<version>1.0.0-SNAPSHOT</version>	
+  	<version>1.0.1-SNAPSHOT</version>	
   	<relativePath>../../</relativePath>
   </parent>
   <groupId>moliz.core</groupId>
   <artifactId>org.modelexecution.moliz.core.feature</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
 
   <name>DSL Debugger Feature</name>
