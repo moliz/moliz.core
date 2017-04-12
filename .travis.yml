@@ -13,9 +13,9 @@ before_install: echo "MAVEN_OPTS='-Xmx2048m -XX:MaxPermSize=512m'" > ~/.mavenrc
 script:
 - mvn clean verify
 # Prepare local dirs to deploy: copy repository
-- chmod a+x prepare-deploy-local-dir.sh
+- chmod a+x prepare-deploy-local-dir.sh get-previous-releases.sh
 - ./prepare-deploy-local-dir.sh $TRAVIS_BUILD_DIR/moliz.core.updatesites/updatesite/nightly
-
+- ./get-previous-releases.sh $TRAVIS_BUILD_DIR/moliz.core.updatesites/updatesite
 
 deploy:
 # copy working update sites to github pages 
