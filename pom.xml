@@ -80,7 +80,7 @@
 							<artifactId>${project.artifactId}</artifactId>
 							<version>${project.version}</version>
 							<classifier>
-								../../releng/org.modelexecution.moliz.core.target/fumldebug-neon
+								../../releng/org.modelexecution.moliz.core.target/fumldebug-oxygen
 							</classifier>
 						</artifact>
 					</target>
