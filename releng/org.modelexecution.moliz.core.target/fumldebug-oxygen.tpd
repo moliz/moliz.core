@@ -1,6 +1,6 @@
-target "dsldebug_neon" with source, requirements
+target "dsldebug_oxygen" with source, requirements
 
-location Eclipse-Neon "http://download.eclipse.org/releases/neon/201610111000" {
+location Eclipse-Oxygen "http://download.eclipse.org/releases/oxygen" {
 	org.eclipse.platform.sdk lazy
 	org.eclipse.equinox.executable.feature.group lazy
 	org.eclipse.emf.edit.feature.group lazy
@@ -13,7 +13,7 @@ location Eclipse-Neon "http://download.eclipse.org/releases/neon/201610111000" {
 	org.junit lazy
 }
 
-location Sirius "http://download.eclipse.org/sirius/updates/nightly/4.1.x/neon" {
+location Sirius "http://download.eclipse.org/sirius/updates/releases/5.0.2/oxygen" {
 	org.eclipse.sirius.runtime.feature.group lazy
 	org.eclipse.sirius.runtime.acceleo.feature.group lazy
 	org.eclipse.sirius.runtime.ide.ui.feature.group lazy
